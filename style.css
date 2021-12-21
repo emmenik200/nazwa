@@ -1,3 +1,4 @@
+
 body{
     background-color: rgba(128, 128, 128);
     color: white;
@@ -39,3 +40,21 @@ footer{
 #ikona{
     margin: 5px;
 }
+iframe{
+    border: none;
+}
+
+h1 {
+    font-size: 72px;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0.03, rgb(250,3,3)),
+      color-stop(0.52, rgb(127, 136, 255)),
+      color-stop(0.76, rgb(1, 235, 196))
+  );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
