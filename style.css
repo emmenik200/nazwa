@@ -7,27 +7,27 @@ body{
     margin: 0px;
     
 }
-header{
+#header{
     text-align: center;
-    height: 20%;
+    height: 20vh;
     font-size: 20px;
     letter-spacing: 6px;
 }
-section{
-    height: 70%;
+#section{
+    height: 70vh;
 }
 #lew   {
     float: left;
-    width: 50%;
+    width:50% ;
     
 }
 #praw{
     float: left;
-    width: 50%;
-    
+    width:50% ;
+   
 }
 footer{
-    height: 10%;
+    height: 7vh;
     clear: both;
     background-color: rgb(146, 144, 144);
     width: 100%;
@@ -39,20 +39,23 @@ footer{
 }
 #ikona{
     margin: 5px;
+    height: 23px;
 }
 iframe{
     border: none;
 }
 
 h1 {
-    font-size: 20px;
+    /*miało byc wielkość 20px ale 50px ładniej wygląda*/
+    margin-top: 25px;
+    font-size: 50px;
     background-image: -webkit-gradient(
       linear,
       left top,
       right top,
-      color-stop(0.03, rgb(250,3,3)),
-      color-stop(0.52, rgb(127, 136, 255)),
-      color-stop(0.76, rgb(1, 235, 196))
+      color-stop(0.03, rgb(250, 172, 3)),
+      color-stop(0.52, rgb(127, 193, 255)),
+      color-stop(0.76, rgb(188, 1, 235))
   );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
